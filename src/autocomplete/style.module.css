@@ -51,7 +51,7 @@ body {
 
 .movie_icon, .search_icon {
     font-size: 30px;
-    padding: 11px;
+    padding: 1px;
     height: 52px;
 }
 
@@ -62,21 +62,21 @@ body {
     width: 40px;
     border: none;
     background-color: #ffffff33;
+    padding: 11px;
 
 } 
 
 .search_icon img {
     color: #ff7744;
     background-color: #fff;
-    margin-left: 4px;
-    height: 40px;
-    width: 40px;
-    margin-bottom: 11px;
+    height: 54px;
+    width: 54px;
 }
+
 
 .active_input, .passive_input {
     height: 52px;
-    padding-left: 10px;
+    padding-left: 0px;
     outline: none;
     border: none;
 }

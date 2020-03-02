@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './style.module.css';
-import MovieIcon from './movieIcon';
-import SearchIcon from './searchIcon';
 import movieIcon from '../icons/movie.svg';
 import searchIcon from '../icons/search.svg';
 
@@ -82,7 +80,8 @@ class Search extends React.Component {
                 </div>
                 <div className={styles.search_container}>
                     <div className={styles.input_container}>
-                        {active }
+                        {active} 
+                    
                         <input
                             placeholder="Enter movie name"
                             onChange={this.handleChange}

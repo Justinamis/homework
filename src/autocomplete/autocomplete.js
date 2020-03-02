@@ -80,7 +80,7 @@ class Search extends React.Component {
                 </div>
                 <div className={styles.search_container}>
                     <div className={styles.input_container}>
-                        {active} 
+                        {active &&  <div className={styles.input_pic}><img src={movieIcon} alt={""}></img></div>} 
                     
                         <input
                             placeholder="Enter movie name"
@@ -103,6 +103,5 @@ class Search extends React.Component {
 
 
 export default Search;
-
 
 

@@ -32,8 +32,8 @@ body {
 .enter_movie_name {
     background-color: #fff;
     color: #666;
-    width: 100%;
-    padding-left: 43px;
+    width: 96%;
+    padding-left: 1px;
 }
 
 .results_container {
@@ -56,19 +56,22 @@ body {
 }
 
 .movie_icon {
-    font-size: 20px;
-    padding: 20px 0 0 20px;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.733);
+    color: #fff;
     margin-left: 4px;
-}
+    height: 32px;
+    width: 40px;
+    border: none;
+    background-color: #ffffff33;
 
-.search_icon {
+} 
+
+.search_icon img {
     color: #ff7744;
     background-color: #fff;
     margin-left: 4px;
     height: 40px;
     width: 40px;
+    margin-bottom: 11px;
 }
 
 .active_input, .passive_input {
@@ -102,8 +105,3 @@ body {
     color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        font-size: 12px;
-    }
-}
